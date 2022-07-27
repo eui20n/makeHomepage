@@ -1,0 +1,29 @@
+.home-go {
+    text-decoration: none;
+}
+
+.insert-image {
+    border: solid;
+    font-size: 100px;
+}
+
+.set-image-margin {
+    margin: 30px 10px 10px 10px;
+}
+
+.border-image {
+    border: solid;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#intro-profile {
+    font-size: 25px;
+    font-family: 'Cute Font', cursive;
+    line-height: 150%;
+}
+
+.link-go:hover {
+    color: red;
+}

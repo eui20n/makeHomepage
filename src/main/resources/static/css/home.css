@@ -1,0 +1,40 @@
+.title {
+    text-align: center;
+}
+
+.tset {
+    text-align: center;
+}
+
+.visible {
+    visibility: hidden;
+    height: 200px;
+}
+
+.link-go {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    font-size: 20px;
+}
+
+#profile-go {
+    padding : 10px 10px 10px 10px;
+    background-color: rgb(7, 162, 209);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#profile-go:hover {
+    background-color: red;
+}
+
+
+#profile2-go {
+    padding : 10px 10px 10px 10px;
+    background-color: rgb(171, 187, 0);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#profile2-go:hover {
+    background-color: red;
+}
