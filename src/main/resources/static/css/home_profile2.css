@@ -1,3 +1,106 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    min-height: 130vh;
+    position: relative;
+    width: 100%
+}
+
 .go-home {
     text-decoration: none;
+}
+
+.total-box {
+    display: flex;
+}
+
+.image-box {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    margin-left: 300px;
+    margin-right: 100px;
+
+}
+
+.image-border {
+    border: solid;
+    border-style: outset;
+    height: 500px;
+}
+
+.text-box {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    color: darkgray;
+}
+
+.top-text-box {
+    border-top: solid gold 2px;
+    width: 600px;
+
+}
+
+.topic {
+    text-align: center;
+    font-size: 150%;
+    color: silver;
+}
+
+
+.bottom-text-box {
+    border-top: solid gold 2px;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.footer-box {
+    text-align: left;
+    background-color: rgb(67, 67, 67);
+}
+
+.footer-text {
+    margin-left: 200px;
+    color: gray;
+}
+
+.link-go {
+    text-decoration: none;
+    color: gray;
+}
+
+.link-go:hover {
+    color: whitesmoke;
+}
+
+.one-word {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.good-word {
+    color: white;
+    line-height: 3.5px;
+}
+
+#highlite:hover {
+    color: red;
+    display: inline;
+    background: rgb(78, 246, 78);
 }
