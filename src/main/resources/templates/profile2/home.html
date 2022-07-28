@@ -1,18 +1,65 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <title>프로필2 홈</title>
-        <link rel="stylesheet" type="text/css" th:href="@{/css/home_profile2.css}" />
-    </head>
-    <body>
-        <div>
-            <a href="/home" class="go-home">
-                로고로 대체 예정
-            </a>
+<head>
+    <title>프로필2 홈</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/home_profile2.css}" />
+</head>
+<body>
+<div id="wrap">
+    <div>
+        <a href="/home" class="go-home">
+            메인 화면으로 가기
+        </a>
+    </div>
+
+    <div class="total-box">
+        <div class="image-box">
+            <img src="img/temp_image2.png" class="image-border">
         </div>
-        
-        <div>
-            여기는 플랫폼의 디자인을 최대한 따라서 만들어 볼것임
+
+        <div class="text-box">
+            <div class="top-text-box">
+                <p class="topic">프로필</p>
+                <ul>
+                    <li>이름 : 김의년</li>
+                    <li>출생 : 1998년 04월 21일</li>
+                    <li>직업 : 무직(대학생 4학년)</li>
+                    <li>장래희망 : 돈 많이 벌기</li>
+                    <li>관심 분야 : 인공 지능과 백엔드</li>
+                </ul>
+            </div>
+
+            <div class="bottom-text-box">
+                <p class="topic">역사</p>
+                <ul>
+                    <li>1998년 04월 21일 태어남</li>
+                    <li>2020년 02월 22일 11사단 전역</li>
+                    <li>2020년 11월 ADsP 자격증 취득</li>
+                    <li>2021년 09월 쇼메이커 팀원이 됨</li>
+                    <li>2022년 06월 쇼메이거 개발 팀장이 됨</li>
+                </ul>
+            </div>
         </div>
-    </body>
+    </div>
+
+    <div class="one-word">
+        본인을 한마디로 표현하자면?
+        <p class="good-word">포기를 할줄 모르기 때문에</p>
+        <p id="highlite" class="good-word">포기의 바보</p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-box">
+            <br>
+            <p class="footer-text">
+                경기도 화성시에 거주<br>
+                순천향대학교 빅데이터 공학과 4학년<br>
+                깃허브 주소 : <a href="https://github.com/eui20n" class="link-go">https://github.com/eui20n</a>
+            </p>
+            <br>
+        </div>
+    </footer>
+
+</div>
+</body>
 </html>
